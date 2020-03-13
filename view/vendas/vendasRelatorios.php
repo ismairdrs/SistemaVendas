@@ -7,10 +7,8 @@
 
 	$obj= new vendas();
 
-	$sql="SELECT id_venda,
-				dataCompra,
-				id_cliente 
-			from vendas;";
+	$sql="SELECT id_venda,  id_cliente, dataCompra
+	from vendas group by id_venda, id_cliente, dataCompra;";
 	$result=mysqli_query($conexao,$sql); 
 	
 	?>
