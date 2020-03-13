@@ -29,6 +29,7 @@ $result=mysqli_query($conexao,$sql);
 	$idcliente=$ver[2];
 
  ?>	
+
  	<link rel="stylesheet" type="text/css" href="../../lib/bootstrap/css/bootstrap.css">
  
  		<img src="../../img/phpoo.png" width="200" height="120">
